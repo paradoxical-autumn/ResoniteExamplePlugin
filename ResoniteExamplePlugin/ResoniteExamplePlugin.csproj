@@ -10,17 +10,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<!-- Elements.Assets and Elements.Core are used to get the custom frooxengine variable types. -->
 	  <Reference Include="Elements.Assets">
 	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Elements.Assets.dll</HintPath>
 	  </Reference>
 	  <Reference Include="Elements.Core">
 	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Elements.Core.dll</HintPath>
 	  </Reference>
+		<!-- FrooxEngine is... FrooxEngine. You kinda need this xD -->
 	  <Reference Include="FrooxEngine">
 	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FrooxEngine.dll</HintPath>
 	  </Reference>
+		<!-- ProtoFlux.Core is used to create ProtoFlux code. It does NOT contain the code for bindings. -->
 	  <Reference Include="ProtoFlux.Core">
 	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFlux.Core.dll</HintPath>
+	  </Reference>
+		<!-- ProtoFluxBindings is used to create ProtoFlux BINDINGS. It does NOT contain the code for programming nodes. -->
+	  <Reference Include="ProtoFluxBindings">
+	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFluxBindings.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 
